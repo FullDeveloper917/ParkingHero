@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "850317046372",
+    "firebase_url": "https://parkinghero-d21f5.firebaseio.com",
+    "project_id": "parkinghero-d21f5",
+    "storage_bucket": "parkinghero-d21f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850317046372:android:0c88c6be069b525f",
+        "android_client_info": {
+          "package_name": "com.emraz.parkinghero"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "850317046372-460tlq906t0kchc72bueu8obaaal0ga6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8i9mJl1KQdaVXeeQQTOoJIA3cVmebo7Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850317046372:android:7434c1807fe53b6a",
+        "android_client_info": {
+          "package_name": "com.ibm.mobilefirstplatform.clientsdk.android.push"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "850317046372-460tlq906t0kchc72bueu8obaaal0ga6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8i9mJl1KQdaVXeeQQTOoJIA3cVmebo7Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/menu_home"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/map"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_register"
+            android:icon="@drawable/ic_register"
+            android:title="Valet Parking" />
+
+        <item
+            android:id="@+id/nav_preference"
+            android:icon="@drawable/ic_reference"
+            android:title="Preferences" />
+
+        <item
+            android:id="@+id/nav_new"
+            android:icon="@drawable/ic_news"
+            android:title="News" />
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/help"
+            android:title="Help" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/share"
+            android:title="Share" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/info"
+            android:title="About This App" />
+
+        <!--<item-->
+        <!--android:id="@+id/nav_special_promotion"-->
+        <!--android:icon="@drawable/ic_promotion"-->
+
+        <!--android:title="Promotions"/>-->
+
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/signout"
+            android:title="Signout" />
+
+    </group>
+
+</menu>

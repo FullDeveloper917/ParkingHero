@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20sp"
+    android:orientation="vertical"
+    tools:context=".activity.AboutActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24sp"
+        android:lineSpacingMultiplier="1.5"
+        android:text="This application is designed, built and maintained by YAZAMTEC B.V."
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp"/>
+
+    <com.androidessence.lib.RichTextView
+        android:id="@+id/rxtVisit_About"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24sp"
+        android:text="Visit our website at www.yazamtec.com"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnRate_About"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32sp"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:drawableLeft="@drawable/ic_star"
+        android:text="Rate the app"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:drawablePadding="16sp"/>
+</LinearLayout>

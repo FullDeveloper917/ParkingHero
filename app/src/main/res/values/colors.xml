@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3f51b5</color>-->
+    <color name="colorPrimary">#2a2d34</color>
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorPrimaryDark">#25282f</color>
+    <color name="colorAccent">#008000</color>
+
+    <color name="splash_background_color">#25282f</color>
+    <color name="red">#cc0000</color>
+
+    <color name="app_dark_gray">#5B5B5B</color>
+    <color name="blue_marker">#0000ff</color>
+    <color name="red_marker">#ff0000</color>
+    <color name="yellow_marker">#FE8C04</color>
+    <color name="green_marker">#008000</color>
+    <color name="colorGreyLight">#8A8A8A</color>
+    <color name="colorBlack">#555555</color>
+    <color name="colorBrightBlue">#88eedd</color>
+    <color name="colorWhiteText">#F4F4F4</color>
+
+    <color name="lighter_gray">#ddd</color>
+
+    <color name="mapboxBlue">#2255cc</color>
+    <color name="mapboxWhite">#ffffff</color>
+    <color name="mapboxPink">#ee4e8b</color>
+    <color name="mapboxYellow">#d9d838</color>
+    <color name="mapboxRed">#b43b71</color>
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.emraz.parkinghero.activity.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="50sp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/splash_background_color">
+
+        <EditText
+            android:id="@+id/editTextCode"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:hint="Registration Code"
+            android:gravity="center"
+            android:background="@color/mapboxWhite"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5sp"
+            android:layout_marginTop="10sp">
+
+            <ImageView
+                android:layout_width="28sp"
+                android:layout_height="28sp"
+                android:src="@drawable/info"/>
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Please enter the registration code provided to you by YAZAMTEC or your employer"
+                android:textColor="@color/colorWhiteText"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonSubmitCode"
+            android:layout_width="130sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="30sp"
+            android:textSize="18sp"
+            android:text="Submit"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

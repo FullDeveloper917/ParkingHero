@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Parking Hero</string>
+    <string name="skip">Skip</string>
+    <string name="sign_in">Sign In</string>
+    <string name="internet_connection_error_message">Please check your internet connection</string>
+    <string name="warning_dialog_title">Warning!</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="server_app_name">ParkingFinder</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="place_search_hint">I want to park in ...</string>
+    <string name="change_permission_manual_message">Enable Permissions from settings</string>
+    <string name="enable">Enable</string>
+    <string name="OK">OK</string>
+    <string name="location_access_permission_rationale_message">Need location access permission to access your location</string>
+
+    <string name="mapbox_access_token" translatable="false">pk.eyJ1IjoiZW5zYW1pbmUiLCJhIjoiY2plandxdXpyMHJoNzMxbXBsZ2c3ZXMwcCJ9.uHBz_2S870N72t-_ehnyOQ</string>
+
+</resources>

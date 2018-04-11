@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayoutTransportType"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="70dp"
+    android:background="@android:color/white"
+    android:elevation="20dp"
+    android:orientation="horizontal"
+    android:padding="@dimen/default_padding_1"
+    android:theme="@style/AppTheme.PopupOverlay">
+
+
+    <include
+        android:id="@+id/layout_type_1"
+        layout="@layout/item_tranport_type" />
+
+    <include
+        android:id="@+id/layout_type_2"
+        layout="@layout/item_tranport_type" />
+
+    <include
+        android:id="@+id/layout_type_3"
+        layout="@layout/item_tranport_type" />
+
+    <include
+        android:id="@+id/layout_type_4"
+        layout="@layout/item_tranport_type" />
+
+    <include
+        android:id="@+id/layout_type_5"
+        layout="@layout/item_tranport_type" />
+
+
+    <!---->
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:orientation="vertical"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--&gt;-->
+    <!--<ImageView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--app:srcCompat="@drawable/an_disabled"-->
+    <!--/>-->
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Disabled"-->
+    <!--style="@style/parking_type_text_view"-->
+    <!--/>-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:orientation="vertical"-->
+    <!--&gt;-->
+    <!--<ImageView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--app:srcCompat="@drawable/an_taxi"-->
+    <!--/>-->
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Taxi"-->
+    <!--style="@style/parking_type_text_view"-->
+    <!--/>-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:orientation="vertical"-->
+    <!--&gt;-->
+    <!--<ImageView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--app:srcCompat="@drawable/an_truck"-->
+    <!--/>-->
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Truck"-->
+    <!--style="@style/parking_type_text_view"-->
+    <!--/>-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:orientation="vertical"-->
+    <!--&gt;-->
+    <!--<ImageView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--app:srcCompat="@drawable/an_pickup"-->
+    <!--/>-->
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Pickup"-->
+    <!--style="@style/parking_type_text_view"-->
+    <!--/>-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:orientation="vertical"-->
+    <!--&gt;-->
+    <!--<ImageView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--app:srcCompat="@drawable/an_tourist_bus"-->
+    <!--/>-->
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Tourist"-->
+    <!--style="@style/parking_type_text_view"-->
+    <!--/>-->
+    <!--</LinearLayout>-->
+    <!---->
+    <!---->
+
+</LinearLayout>

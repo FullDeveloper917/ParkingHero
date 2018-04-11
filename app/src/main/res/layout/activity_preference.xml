@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.emraz.parkinghero.activity.PreferenceActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70sp"
+        android:text="Find parking places within…"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:layout_gravity="center"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupRadius"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="50sp">
+
+        <RadioButton
+            android:id="@+id/threeHundred"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="300 meters"
+            android:textSize="18sp"
+            android:paddingLeft="10sp"/>
+
+        <RadioButton
+            android:id="@+id/fiveHundred"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:text="500 meters"
+            android:textSize="18sp"
+            android:paddingLeft="10sp"/>
+
+
+        <RadioButton
+            android:id="@+id/eightHundred"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:text="800 meters"
+            android:textSize="18sp"
+            android:paddingLeft="10sp"/>
+
+
+        <RadioButton
+            android:id="@+id/thousand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:text="1000 meters"
+            android:textSize="18sp"
+            android:paddingLeft="10sp"/>
+
+    </RadioGroup>
+
+</LinearLayout>
